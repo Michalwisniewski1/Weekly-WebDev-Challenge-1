@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projekt 1</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img width="429" height="111" src="img/logo.png" alt="Masteralb creative"></a>
+    </header>
+    <section>
+        <div class='form-left'>
+            <div class='form-wrapper'>
+                <h1>Register form</h1>
+                <form action="#" method="post">
+                    <label class="input-wrapper"><i class="icon-user"></i><input type='text' required name='username' placeholder='Username' /></label>
+                    <label class="input-wrapper"><i class="icon-lock"></i><input type='password' required name='password' placeholder='Password' /></label>
+                    <label class="input-wrapper"><i class="icon-lock"></i><input type='password' required name='password' placeholder='Password' /></label>
+                    <label class="input-wrapper"><i class="icon-email"></i><input type='email' required name='email' placeholder='E-mail' /></label>
+                    <label class="input-wrapper"><i class="icon-location"></i><select class="loc-select">
+        <option placeholder="" required disabled selected hidden>Your location</option>
+        <option>US</option>
+        <option>Europe</option>
+        <option>Asia</option>
+        <option>Australia</option>
+        <option>Africa</option>
+      </select></label>
+                    <input type="checkbox" required id="c1" name="terms" placeholder="true">
+                    <label for="c1"><span><strong class="no-border gradient-buttons"></strong></span><p>I have read and accept the terms of use</p></label>
+                    <input type="submit" class="gradient-buttons" value="Sign up">
+                </form>
+            </div>
+            <div class='form-wrapper'>
+                <h1>Send Email form</h1>
+                <form>
+                    <label class='input-wrapper'><i class='icon-user'></i><input type='text' required name='username' placeholder='Your name'/></label>
+                    <label class='input-wrapper'><i class='icon-email'></i><input type='email' required name='email' placeholder="Your email" /></label>
+                    <label class='input-wrapper message-area'><textarea placeholder="Type your message here" required rows='15'></textarea></label>
+                    <input type='checkbox' required id='c2' name='copy' placeholder="true">
+                    <label for='c2'><span><strong class='no-border gradient-buttons'></strong></span><p>Send a copy to my Email</p></label>
+                    <input type='submit' class='gradient-buttons' value="Send email" />
+                </form>
+            </div>
+        </div>
+
+        <div class='form-right'>
+            <div class='form-wrapper'>
+                <h1>Sing in form</h1>
+                <form>
+                    <label class='input-wrapper'><i class='icon-user'></i><input type='text' required name='username' placeholder='Username'/ /></label>
+                    <label class='input-wrapper'><i class='icon-lock'></i><input type='password' required name='password' placeholder='Password'/></label>
+                    <input type="checkbox" id="c3" name="remember-me" value="true">
+                    <label for="c3"><span><strong class="no-border gradient-buttons"></strong></span><p>Remember me</p></label>
+                    <input type="submit" class="right-button gradient-buttons" value="Sign in">
+                </form>
+            </div>
+
+            <div class='form-wrapper'>
+                <h1>Recover form</h1>
+                <form>
+                    <label class='input-wrapper'><i class='icon-email'></i><input type='email' required name='email' placeholder='Enter your Email' /></label>
+                    <label class="input-wrapper"><i class='icon-mobile-alt'></i><input type='tel' required name='phone' placeholder='Enter your phone number' /></label>
+                    <input type="submit" class="gradient-buttons" name="recovery" value="Send">
+                    <input type="submit" class="right-button gradient-buttons" value="Done" />
+                </form>
+            </div>
+            <div class="form-wrapper">
+                <h1>Subscribe form</h1>
+                <form>
+                    <label class="input-wrapper"><i class='icon-email'></i><input type='email' required name='email' placeholder='Enter your Email' /></label>
+                    <input type="submit" class="gradient-buttons" value="Subscribe" />
+                    <input type='submit' id='no-agreement-button' class="right-button" value="No,thanks" />
+                </form>
+            </div>
+            <div>
+                <a href="#"><img width="354" height="137" src="img/logo-footer.png" alt="Masteralb creative"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+    </footer>
+</body>
+<script src=" script.js "></script>
+
+</html>
